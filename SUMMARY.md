@@ -5,9 +5,12 @@
   * [Patrons](staff-client/patrons.md)
   * [Reports](staff-client/reports.md)
   * [Search](staff-client/search.md)
+  * [Lists](staff-client/staff-lists.md)
+  * [Cart](staff-client/staff-cart.md)
   * [Holds](staff-client/holds.md)
   * [Cataloging](staff-client/cataloging.md)
 * [OPAC](opac/README.md)
   * [Patron](opac/patron.md)
   * [Searching](opac/searching.md)
-
+  * [Lists](opac/opac-lists.md)
+  * [Cart](opac/opac-cart.md)
