@@ -7,7 +7,7 @@
   * [Search](staff-client/search.md)
   * [Lists](staff-client/staff-lists.md)
   * [Cart](staff-client/staff-cart.md)
-  * [Holds](staff-client/holds.md)
+  * [Requests](staff-client/holds.md)
   * [Cataloging](staff-client/cataloging.md)
 * [OPAC](opac/README.md)
   * [Patron](opac/patron.md)
