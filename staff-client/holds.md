@@ -1,7 +1,4 @@
-# Requests
-
-
-***
+# Holds
 
 ## Damaged status in holds information
 
@@ -9,8 +6,5 @@ If you're attempting to place a request on an item that has a "Damaged" status, 
 
 This enhancement was created for the new version but it has already been back-ported to our existing system.
 
-
 ![17.11 Damaged information](../.gitbook/assets/1711-350.requests.jpg)
 
-
-***

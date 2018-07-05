@@ -1,11 +1,8 @@
 # Reports
 
-
-***
-
 ## Patron renewal statistics
 
-The borrowers table in the database now includes a column for "date_renewed."
+The borrowers table in the database now includes a column for "date\_renewed."
 
 Current version:
 
@@ -21,7 +18,7 @@ This means we can now gather statistics on how many patrons renewed their accoun
 
 The SQL that collects this data is:
 
-``` SQL
+```sql
 SELECT
   branches.branchcode,
   Coalesce(BORROWERSR.COUNT, 0) AS B_RENEWED_LM
@@ -43,19 +40,17 @@ ORDER BY
   branches.branchcode
 ```
 
-A report number will be assigned to this report after the upgrade (the report won't be added till after the upgrade actually happens).
-
-***
+A report number will be assigned to this report after the upgrade \(the report won't be added till after the upgrade actually happens\).
 
 ## Account offsets table
 
-Fees and payments are not linked in the current version.  This means it's incredibly difficult to write reports showing which payments correspond to specific fees on a patron's account.
+Fees and payments are not linked in the current version. This means it's incredibly difficult to write reports showing which payments correspond to specific fees on a patron's account.
 
 ![Account offsets](../.gitbook/assets/1711-120.accountoffsets.jpg)
 
 A report with this SQL
 
-```SQL
+```sql
 SELECT
   borrowers.cardnumber,
   payments.timestamp AS PAYMENT_DATE_TIME,
@@ -81,13 +76,11 @@ will return a result like this
 
 ![Account offsets](../.gitbook/assets/1711-130.accountoffsets.jpg)
 
-This can pave the way to better reporting on fines paid at Library A that are due at Library B.  It will also make PayPal reporting more efficient.
-
-***
+This can pave the way to better reporting on fines paid at Library A that are due at Library B. It will also make PayPal reporting more efficient.
 
 ## Location code added to statistics table
 
-Item location data (Adult, Childrens, Young adult) is not currently recorded in the statistics table.  This means that if we want data regarding location in our monthly/yearly reports, we have to write complex reports that can change over time.  The new version will move location information into the statistics table at checkout, therefore, monthly statistics should be more accurate.
+Item location data \(Adult, Childrens, Young adult\) is not currently recorded in the statistics table. This means that if we want data regarding location in our monthly/yearly reports, we have to write complex reports that can change over time. The new version will move location information into the statistics table at checkout, therefore, monthly statistics should be more accurate.
 
 Current version:
 
@@ -97,6 +90,5 @@ New version:
 
 ![Location in statistics - 17.11](../.gitbook/assets/1711-150.statisticslocation.jpg)
 
-This will mean a re-write to the reports that collect monthly circulation statistics.  Those reports will be updated after the upgrade.
+This will mean a re-write to the reports that collect monthly circulation statistics. Those reports will be updated after the upgrade.
 
-***
