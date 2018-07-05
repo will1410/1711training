@@ -7,13 +7,43 @@
 
 The borrowers table in the database now includes a column for "date_renewed."
 
+Current version:
+
 ![17.05 schema](../.gitbook/assets/1711-090.renewaldate.jpg)
+
+New version:
 
 ![17.11 schema](../.gitbook/assets/1711-100.renewaldate.jpg)
 
 This means we can now gather statistics on how many patrons renewed their accounts in a given month and those statistics will start appearing on the monthly statistical report on the August statistics.
 
 ![Monthly report changes](../.gitbook/assets/1711-110.renewaldate.jpg)
+
+The SQL that collects this data is:
+
+``` SQL
+SELECT
+  branches.branchcode,
+  Coalesce(BORROWERSR.COUNT, 0) AS B_RENEWED_LM
+FROM
+  branches
+  LEFT JOIN (SELECT
+        borrowers.branchcode,
+        Count(*) AS COUNT
+      FROM
+        borrowers
+      WHERE
+        Month(borrowers.date_renewed) = Month(Now() - INTERVAL 1 MONTH) AND
+        Year(borrowers.date_renewed) = Year(Now() - INTERVAL 1 MONTH)
+      GROUP BY
+        borrowers.branchcode) BORROWERSR ON branches.branchcode = BORROWERSR.branchcode
+GROUP BY
+  branches.branchcode
+ORDER BY
+  branches.branchcode
+```
+
+A report number will be assigned to this report after the upgrade (the report won't be added till after the upgrade actually happens).
 
 ***
 
@@ -51,7 +81,7 @@ will return a result like this
 
 ![Account offsets](../.gitbook/assets/1711-130.accountoffsets.jpg)
 
-This can pave the way to better reporting on fines paid at Library A that are due at Library B.
+This can pave the way to better reporting on fines paid at Library A that are due at Library B.  It will also make PayPal reporting more efficient.
 
 ***
 
@@ -59,12 +89,14 @@ This can pave the way to better reporting on fines paid at Library A that are du
 
 Item location data (Adult, Childrens, Young adult) is not currently recorded in the statistics table.  This means that if we want data regarding location in our monthly/yearly reports, we have to write complex reports that can change over time.  The new version will move location information into the statistics table at checkout, therefore, monthly statistics should be more accurate.
 
-17.05 version:
+Current version:
 
 ![Location in statistics - 17.05](../.gitbook/assets/1711-140.statisticslocation.jpg)
 
-17.11 version
+New version:
 
 ![Location in statistics - 17.11](../.gitbook/assets/1711-150.statisticslocation.jpg)
+
+This will mean a re-write to the reports that collect monthly circulation statistics.  Those reports will be updated after the upgrade.
 
 ***
