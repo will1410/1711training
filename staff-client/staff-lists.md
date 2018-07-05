@@ -30,6 +30,3 @@ Current version:
 New version:
 
 ![17.11 Add by biblionumber](../.gitbook/assets/1711-320.lists.jpg)
-
-
-***
