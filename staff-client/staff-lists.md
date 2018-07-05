@@ -1,8 +1,8 @@
 # Lists
 
 
-***
 
+<<<<<<< HEAD:staff-client/staff-lists.md
 ## Creating a new list
 
 The interface for creating a new list has changed.
@@ -32,3 +32,5 @@ New version:
 ![17.11 Add by biblionumber](../.gitbook/assets/1711-320.lists.jpg)
 
 ***
+=======
+>>>>>>> parent of f6a6f97... Added cart, holds, and lists:staff-client/lists.md
