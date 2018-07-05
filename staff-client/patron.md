@@ -9,14 +9,14 @@ When you view the patron's record in the staff client there will be a new tab fo
 
 Click on the tab that says "Holds history"
 
-(need a photo)
+![Holds history](screenshots/1711-010.holdshistory.jpg)
 
 Items that have not arrived say "Pending"
 Items that have been filled say "Fulfilled"
 Items that have been cancelled say "Cancelled"
 Items that are waiting say "Waiting"
 
-(need a photo)
+![Holds history columns and statusses](screenshots/1711-020.holdshistory.jpg)
 
 Patrons cannot see their own holds history - that function will be in a future version
 
