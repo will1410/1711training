@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Staff client](staff-client/README.md)
-  * [Patrons](staff-client/patron.md)
+  * [Patrons](staff-client/patrons.md)
   * [Reports](staff-client/reports.md)
   * [Search](staff-client/search.md)
   * [Lists](staff-client/lists.md)
@@ -14,3 +14,4 @@
   * [Searching](opac/searching.md)
   * [Cart](opac/cart.md)
   * [Lists](opac/lists.md)
+
