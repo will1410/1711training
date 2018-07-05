@@ -78,3 +78,4 @@ New version:
 
 ![Floating toolbar - 17.11](../.gitbook/assets/1711-280.toolbar.jpg)
 
+***

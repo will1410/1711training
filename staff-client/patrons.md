@@ -45,4 +45,3 @@ New version:
 ![Patron initiated update - 17.11](../.gitbook/assets/1711-080.gonenoaddress.jpg)
 
 ### Several other changes that affect patrons will be covered in the OPAC section
-

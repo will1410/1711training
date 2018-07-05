@@ -91,4 +91,3 @@ New version:
 ![Location in statistics - 17.11](../.gitbook/assets/1711-150.statisticslocation.jpg)
 
 This will mean a re-write to the reports that collect monthly circulation statistics. Those reports will be updated after the upgrade.
-
