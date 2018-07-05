@@ -1,8 +1,7 @@
 # Cart
 
+***
 
-
-<<<<<<< HEAD:staff-client/staff-cart.md
 ## Full title display in cart
 
 The title in the cart now includes subtitle fields.
@@ -20,5 +19,3 @@ New version:
 ![17.11 Display in cart](../.gitbook/assets/1711-350.cart.jpg)
 
 ***
-=======
->>>>>>> parent of f6a6f97... Added cart, holds, and lists:staff-client/cart.md
