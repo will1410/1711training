@@ -13,4 +13,3 @@
   * [Patron](opac/patron.md)
   * [Searching](opac/searching.md)
   * [Lists](opac/opac-lists.md)
-  * [Cart](opac/opac-cart.md)
