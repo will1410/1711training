@@ -4,7 +4,7 @@
 ***
 ## Shelving location column
 
-Currently an item's shelving location (Adult/Children's/Young Adult) appears under the home library and current library information in those columns.  In the new version, the shelving location will have its own separate column.
+Currently an item's shelving location (Adult/Children's/Young Adult) appears in the "Home library" and in the "Current location" columns.  In the new version, the shelving location will have its own separate column and the "Current location" column will cease to exist. 
 
 Current version:
 
