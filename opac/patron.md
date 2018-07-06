@@ -2,7 +2,7 @@
 
 
 ***
-## More "Forgot your password" options
+## New "Forgot your password" options
 
 Version 16.11 added a "Forgot your password" feature to the OPAC.  This feature required that a patron enter their username and e-mail address and then the system would automatically e-mail them within 15 minutes with a password reset link.
 
@@ -47,5 +47,19 @@ The new version sends uses the default address for the patron's home library as 
 ![17.05 Forgot your password e-mail address](../.gitbook/assets/1711-400.patron.jpg)
 
 ![17.11 Forgot your password e-mail address](../.gitbook/assets/1711-410.patron.jpg)
+
+***
+
+## Purchase suggestion quantity
+
+Whe patrons place a purchase suggestion in the OPAC, they can now specify the number of copies they're suggesting that the library purchase.
+
+In the OPAC you see the quantity on the purchase suggestion form:
+
+![17.11 Purchase suggestion quantity](../.gitbook/assets/1711-460.patrons.jpg)
+
+Once the suggestion is placed, staff see the quantity requested in the specific suggestion:
+
+![17.11 Purchase suggestion quantity](../.gitbook/assets/1711-470.patrons.jpg)
 
 ***
