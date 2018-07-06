@@ -9,10 +9,11 @@ Click on the tab that says "Holds history"
 
 ![Holds history](../.gitbook/assets/1711-010.holdshistory.jpg)
 
-Items that have not arrived will say "Pending."
-Items that have been filled will say "Fulfilled."
-Items that have been canceled will say "Canceled."
-Items that are waiting will say "Waiting."
+* Items that have not arrived will say "Pending."
+* Items that are in transit will say "In transit."
+* Items that are waiting will say "Waiting."
+* Items that have been picked up and checked out by the patron will say "Fulfilled."
+* Items that have been canceled will say "Canceled."
 
 ![Holds history columns and statuses](../.gitbook/assets/1711-020.holdshistory.jpg)
 
