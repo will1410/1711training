@@ -5,7 +5,9 @@
 
 The interface for creating a new list has changed.
 
-The old version had separate controls allowing the list owner to to control whether or not others could add to the list, delete things they had added to the list, or delete things ohters added to a list.  The controls and instructions for using these features were confusing.  The new interface allows staff to create public lists and block all editing (once the list is created even the owner can't take things off of it); give anyone full permission to add or remove items; or to allow only themselves to add or remove items on that list.
+The current version has separate controls allowing the list owner to to control whether or not others can add to a list, delete things they have added to a list, or delete things others have added to a list.  The controls and instructions for using these features were confusing.  
+
+The new interface allows staff to create public lists and block all editing (once the list is created even the owner can't take things off of it); give anyone full permission to add or remove items; or to allow only themselves to add or remove items on that list.
 
 Current version:
 
