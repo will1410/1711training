@@ -1,7 +1,6 @@
 # Reports
 
 ***
-
 ## Patron renewal statistics
 
 The borrowers table in the database now includes a column for "date\_renewed."
@@ -45,7 +44,6 @@ ORDER BY
 A report number will be assigned to this report after the upgrade \(the report can't be added to the production server until after the upgrade actually happens\).
 
 ***
-
 ## Account offsets table
 
 Fees and payments are not linked in the current version. This means it's incredibly difficult to write reports showing which payments correspond to specific fees on a patron's account.
@@ -83,7 +81,6 @@ will return a result like this
 This can pave the way to better reporting on fines paid at Library A that are due at Library B. It will also make PayPal reporting more efficient.
 
 ***
-
 ## Location code added to statistics table
 
 Item location data \(Adult, Childrens, Young adult\) is not currently recorded in the statistics table. This means that if we want data regarding location in our monthly/yearly reports, we have to write complex reports that can change over time. The new version will move location information into the statistics table at checkout, therefore, monthly statistics should be more accurate.
