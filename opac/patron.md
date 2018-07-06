@@ -15,7 +15,7 @@ The new version keeps the feature but modifies it so that patrons can enter:
 
 * Their e-mail address (provided no one else has that e-mail address on their account)
 
-If more than one patron uses the same e-mail address, then they must enter their username or their library card number.
+If more than one patron uses the same e-mail address, then they must enter their username or their library card number in addition to the e-mail address.  And, of course, if the patron does not have an e-mail address saved in their account, they cannot receive a password reset e-mail at all.
 
 ![17.11 Forgot your password](../.gitbook/assets/1711-370.patron.jpg)
 
@@ -45,5 +45,7 @@ When the "Forgot your password" feature was added, the e-mails were sent from th
 The new version sends uses the default address for the patron's home library as the "From address" for the password re-set e-mail.
 
 ![17.05 Forgot your password e-mail address](../.gitbook/assets/1711-400.patron.jpg)
+
+![17.11 Forgot your password e-mail address](../.gitbook/assets/1711-410.patron.jpg)
 
 ***
