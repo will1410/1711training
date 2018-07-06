@@ -1,7 +1,6 @@
 # Holds
 
 ***
-
 ## Damaged status in holds information
 
 If you're attempting to place a request on an item that has a "Damaged" status, the status of the item will now display in the "Information" column on the holds page.

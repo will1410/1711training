@@ -1,5 +1,6 @@
 # Search
 
+***
 ## Pagination bar
 
 The search results pages have always included a pagination bar at the bottom of the page. It will now be repositioned so that it appears at the top and the bottom of the search results.
@@ -14,6 +15,7 @@ New version:
 
 ![Pagination bar - 17.11](../.gitbook/assets/1711-170.search.jpg)
 
+***
 ## Toolbar changes
 
 There are several changes to the toolbar in the search results. Here are some screenshots to compare.
@@ -26,6 +28,7 @@ New version:
 
 ![Toolbar - 17.05](../.gitbook/assets/1711-190.toolbar.jpg)
 
+***
 ### Add to
 
 The add to cart/list dropdown has changed. The new version will have separate buttons for the cart and lists instead of the single dropdown that we now have.
@@ -36,6 +39,7 @@ The "Add to list" dropdown which allows you to choose which list to add to will 
 
 ![Add to cart/list](../.gitbook/assets/1711-210.toolbar.jpg)
 
+***
 ### Sort
 
 The dropdown to change the sort order is now also styled as a button. To change the sort order in the new version you click the button and then select the new sorting preference from the dropdown that appears.
@@ -48,6 +52,7 @@ New version:
 
 ![Sort - 17.11](../.gitbook/assets/1711-230.toolbar.jpg)
 
+***
 ### Show all/local copies
 
 The "Brief/Full Results" button has been restyled and is now called "Show all copies" or "Show local copies" depending on the circumstances.
@@ -66,6 +71,7 @@ The old button also created an odd situation. If you clicked on the + sign to op
 
 In the new version, clicking "Show all copies" opens all copies regardless of whether they were opened or closed when the button was clicked and vice-versa.
 
+***
 ### Floating Toolbar
 
 The toolbar in the new version will float. In the old version, once you scrolled down the screen, the toolbar disappeared. In the new version, the toolbar will stick to the top of the screen.

@@ -1,6 +1,6 @@
 # Lists
 
-
+***
 ## Creating a new list
 
 The interface for creating a new list has changed.
@@ -16,7 +16,6 @@ New version:
 ![17.11 New list](../.gitbook/assets/1711-300.lists.jpg)
 
 ***
-
 ## Add by biblionumber
 
 Currently titles can be added to a list by barcode number in the lists interface.  In the new version staff can add titles to a list by biblionumber.  This can be particularly helpful for libraries that add titles to the catalog before the items are released.  A report could be created, for example, to list the biblionumbers for all pre-ordered DVD titles at a library so they could bulk-add those titles to a list of upcoming movie releases.

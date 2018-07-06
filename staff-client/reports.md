@@ -1,5 +1,7 @@
 # Reports
 
+***
+
 ## Patron renewal statistics
 
 The borrowers table in the database now includes a column for "date\_renewed."
@@ -40,7 +42,9 @@ ORDER BY
   branches.branchcode
 ```
 
-A report number will be assigned to this report after the upgrade \(the report won't be added till after the upgrade actually happens\).
+A report number will be assigned to this report after the upgrade \(the report can't be added to the production server until after the upgrade actually happens\).
+
+***
 
 ## Account offsets table
 
@@ -77,6 +81,8 @@ will return a result like this
 ![Account offsets](../.gitbook/assets/1711-130.accountoffsets.jpg)
 
 This can pave the way to better reporting on fines paid at Library A that are due at Library B. It will also make PayPal reporting more efficient.
+
+***
 
 ## Location code added to statistics table
 

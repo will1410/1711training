@@ -1,7 +1,6 @@
 # Cart
 
 ***
-
 ## Full title display in cart
 
 The title in the cart now includes subtitle fields.
