@@ -8,12 +8,12 @@ Version 16.11 added a "Forgot your password" feature to the OPAC.  This feature 
 
 The new version keeps the feature but modifies it so that patrons can enter:
 
-1. Their username
-2. Their library card number
+* Their username
+* Their library card number
 
 -or-
 
-3. Their e-mail address (provided no one else has that e-mail address on their account)
+* Their e-mail address (provided no one else has that e-mail address on their account)
 
 If more than one patron uses the same e-mail address, then they must enter their username or their library card number.
 
